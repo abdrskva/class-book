@@ -1,0 +1,28 @@
+# Book Class Implementation
+
+## Overview
+This repository contains a Java class named `Book` that represents a book entity with attributes such as title, author, ISBN, and price. The class includes methods for displaying book information and applying a discount to the price.
+
+## Class Structure
+- **Attributes:**
+  - `title`: The title of the book (String)
+  - `author`: The author of the book (String)
+  - `ISBN`: The ISBN of the book (String)
+  - `price`: The price of the book (double)
+
+- **Constructors:**
+  - Default Constructor: Initializes all attributes to default values.
+  - Parameterized Constructor: Initializes attributes with provided values.
+
+- **Methods:**
+  - `displayInfo()`: Prints the details of the book.
+  - `applyDiscount(double percentage)`: Reduces the price by a specified percentage.
+
+## Usage
+To test the class, run the `main` method in the `Book` class. It demonstrates the creation of book objects using both the default and parameterized constructors, as well as applying discounts.
+
+## UML Class Diagram
+Included in this repository is a UML Class Diagram that visualizes the structure of the `Book` class.
+
+## Submission
+This project is hosted on GitHub. You can view the code and UML diagram [here](https://online.visual-paradigm.com/app/diagrams/?lightbox=1&highlight=0000ff&edit=https%3A%2F%2Fonline.visual-paradigm.com%2Fapp%2Fdiagrams%2F%23diagram%3Aproj%3D0%26type%3DClassDiagram%26gallery%3D%2Frepository%2Ff078f2a9-88f3-4763-8889-b01cd2b7b90f.xml%26name%3DCar%2520and%2520Driver%2520Class%2520Diagram&editBlankUrl=https%3A%2F%2Fonline.visual-paradigm.com%2Fapp%2Fdiagrams%2F%23diagram%3Aproj%3D0%26vpov%3D16.3%26vpob%3D20220410%26client%3D1%26edit%3D_blank&layers=1&nav=1&title=Car%20and%20Driver%20Class%20Diagram&vpov=16.3&vpob=20220410#R3cU2FsdSGVkX1L9YP7KGgO4X%2FuwgmU4ESna6RQoA8mcUW3LwOWZoo%3DQ8Hzjin5J37RNzMmwXgNxFqHFvT6jDMUlal886PRXqlnX4EAXfRA3DbNTcbXRcIxCFsbI77GGsK64qCV8fU9eoJafbft0Fbsu0cbx8QL5VKsCIvxsYZwcoUySP8hA%2FP7qQpK48XXkHYhkgBjjbxwWDcqm%2FxwrBZhQeIr2og%2Fv036gBSn%2B2X9UAnH6Q9OkUuBr%2FDXPC%2FDbn1cK%2F5YkMUMkwpOFmKqNzXwDF4n1VoTl7wi7payYPDtO1hYQlvxkIwYRnY%2BtiM3Z12S5OF%2BlqH5ALJExuxo%2Bp6CpI7ilI93FmScenb1%2BW%2F%2FeruGd%2Bzco5VObLS2ck89VpKaf1g40%2FC5A775h9r3VgEUijkuZc22BypGxUBmTB0pOzI2Ke1DpAbMu7fcTrwqEL7U5rU1jR4McZzTaKsCc4eELcbZt8rEOSCsrJD3jDEql8w8QOf98qcVbUB0Ehk3hswj0A%2B04kDe9QRB2HeXDgjsHPpPPGsiQcpVUtALnf2YU2LuA74oup%2Femfje2lSJsKOMOVoaUCWSomVJ%2BTogqeJJWe2ExANHIy%2Fv6cd9T49oZLGJFBFGPOBF8WYmTmL4Swhuv5D0M7CIU6d4sCodH41ujCasEMcJoyStMbkF3DQ%2FPku9JBwnCwPJdJz0lh8i7V3a1S5m8AqnFIXHMMna4BiUhbkxYI5zUTJD7QHrxKFuwLs7NSqz%2FCIOLU3uSaMgq%2BignkJ7mIzZaJRx62S5ZYRfQUYu8tnAYTcZAJ1SsTORpMbvrEREtFByZ2%2FEphed08Z2JsE2ks0tp35Teu1agPCFm%2FGbh69YqrRZtjUPMZGWD23yUOcy6nUitk6QdiJMOSXkXJIfZuj%2Fy0nSlHMxbSWU3PPw5by6OTDtT8bwXRPCF8Sd8gegy90nFCJDzVnG5OiCEkDvNJ1CiIE49Qk0553hxgRTCWpArakFeT5KL8MOwmBqmd3RBMKFiHDP6FWgzBJN3rTfyy0rGbxOElRKWq11loxQw3cqKuzHEylwhJbqmaRoBQEaaSpFzBlw9u2mkPL3GgAsdd3sKz9Shlkyg%2Ba6Mj7MwkmQ1o0VFRfBPpp8y4wmpBuXg383Q4y1HlE0GcFqI6tvoKPdKGhds4WmWeKV19NXqy2ohUSi9PAKwadmVzFCB0qWHmnkfGV6PVwGhSlvPBSHC0%2B2PQDXgs9WMoGVzclHr1ya7mtzs9ByT%2BIU1dJFIBL3Ay0IaBssnf1PslNVp7YezYqRkKuxtIX%2FZAFSs8sRnZpsV6QslCQBnhoWuwxLsmGsDNUONrSY8LSTMwwhR%2BTWFDxvZ8WDo0rTRn%2Fy9XvZEZ1qMuESAFgcm%2FRKiAKxIoxmP9jF1SoAYzAYVaRHoG10Aj%2ByIakyRJ4fZNAkDtrvS1IPXPOF8ktD0TUGUaEhs4G9liyfcsPh3f8IgXLuyF6bTrJ6BGRRHRtOyIzqoaXPDkIR7Jou34mXz2zTqvgkSHeGi3xbX2BhyqCRrbQz5qJ1nBA09Il7lDFeXfTeKaL9FJzadoJ1fTTEUUFhzvtrnj2lrLdOi0SabXzayBDp53T0tDXzZRYEhMLfXmdZN6M%2Bg1czJr1NlTT1Q%2BKaBsBFdrlixeoUMiu7%2BLboCuxX17v1uw7B3Tbkok3Q6QGk06QprhxA3JCUbpUoJvXtEy5oOEA%2B0blzolz7g57ap81O0FV7lZNBsrfexDpqQenHZi4MLd%2FtARK2Qbjj96w1R5W%2B0NtwFvoYqCP6d7MvZpXbbiwILzAMBgQBdDX86qqXycH%2Bjo0Y9o1jMYdthp6UGjN4Hblay4tzQ8QauczH1jMNeX0J1wy07dkBpUUwrq%2BpynrQLvyABm5d65K%2BrNOZg1lRIHAy48%2FURszp83TzSoWS1NJWSufl8nhqrGzEN82fUjgNO4jXkJj%2BQyX63RjetO9IlQDFy8Qz1wYVhIsT%2Fu7U7SzNUz9VWx5ceyDiRdhL9z%2FG6hD24KeCwY%2FYjyRyK%2B0mdFKvdlzPwp61IDT7OHGBHtAdAPwt4C3iIb1IiBqtOJIcp3uUasQnUcYxnwR1cS6nT14GK7eaoh4NVPTjf9%2FSS04IGGmRTylhbvlQmaOXz9tS1OiuCuLwFVRt1Vpscd3aHPvqFIKYX15Wg1%2BV9w2NifoP4XUNAjXO6JmZQ7Uqf1RwtwU0wAE2zbhPLvlqPaUwCyYYlu%2BtQpnYUUoTyJ6HiyL8QBPWCgRfsCHE3yWxroQusCZ8RHiQIFhj2X1ZHpFkUO4XYwb72AqP3dH9tlTO5i54EjJekWjbtrmnsN4G%2FEtlm9MKi92%2Bt1ZZ7%2ByG7TYkQOAcP2k%2BI5xEj3cJJEyHTm9MNElNNoVDg9BZPOhGzBoBZurFqNJYzjSbSJz2c5be1G8vIAOe66ljIvTmVdV7YCs7UKCkocQQ3cJYm2nUZYnOMaW4KNofC9z4hl0kUwnLR0wWfDsgJHPCW44CI%2Bdg%2FjuK3kgUhyJl9ZJ4EhJ10XIdG1WePcvxpdiAyX5mJLc%2FnETUQYrH1XDljjaotgwejnDKwlIidIYpgKfus47hUzhI9ahc849rFtQWLqNO1v5r5K%2B84PQxIsn5yS0u51GMVdJ8cTkiqhsxdT1JJw2QMa3PzumDq22nlL%2FT205BSxCrq4LAxrrI4UxztvMJ5n45DQg2oxuRBvnJQDzrCy%2B2eH305EGvC6jBieo%2BwjPtrdwKwQZyCv2ZeLihJTNG0POOfhObaMdjOzFTC2cO%2FURJLWC%2FtOixm4og0GewCSdtZpWJbw%2FwQlFlUiNlm0kIMEFHCMHc8J10Hpzul5DBu0FHgFPKvSNEOTMuBUUBXodV4wRTOHKxf2O9kZRJ8Uo%3D14rkqp8b).
